@@ -41,19 +41,19 @@ function endTest(){
 }
 function calculatePlacement(variable){
   if (variable === "x"){
-  xValue = (ans1 + ans2 + ans3 + ans4 - ans5 - ans6 - ans7 - ans8)/8;
-  xPosition = xValue*32+155;
-  xCoord = (xValue/40).toFixed(2);
+  xValue = (ans1 + ans2 + ans3 + ans4 - ans5 - ans6 - ans7 - ans8)/4;
+  xPosition = xValue*16+155;
+  xCoord = (xValue).toFixed(2);
   }
   if (variable === "y"){
-  yValue = (ans9 + ans10 + ans11 + ans12 - ans13 - ans14 - ans15 - ans16)/8;
-  yPosition = yValue*32+195;
-  yCoord = (-(yValue/40)).toFixed(2);
+  yValue = (ans9 + ans10 + ans11 + ans12 - ans13 - ans14 - ans15 - ans16)/4;
+  yPosition = yValue*16+195;
+  yCoord = (-(yValue)).toFixed(2);
   }
   if (variable === "z"){
-  zValue = (ans17 + ans18 + ans19 + ans20 - ans21 - ans22 - ans23 - ans24)/8;
-  zPosition = zValue*32+160;
-  zCoord = (zValue/40).toFixed(2); 
+  zValue = (ans17 + ans18 + ans19 + ans20 - ans21 - ans22 - ans23 - ans24)/4;
+  zPosition = zValue*16+160;
+  zCoord = (zValue).toFixed(2); 
   }
 }
 function plotResults(){
