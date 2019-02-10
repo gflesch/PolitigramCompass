@@ -179,100 +179,6 @@ button.arrow:disabled {
   border: 1px solid #C7C7C7;
   background-color: #C7C7C7; }
 
-#studio-dpad {
-  width: 390px;
-  vertical-align: top;
-  margin-left: 10px;
-  -webkit-touch-callout: none; }
-
-#studio-dpad-rim {
-  position: absolute;
-  width: 0px;
-  height: 0px;
-  border: 76px solid #FFFFFF;
-  border-radius: 76px;
-  box-shadow: 1px 1px 1px 0 #7F7F7F; }
-
-#studio-dpad-cone {
-  position: absolute;
-  margin: 2px;
-  width: 0px;
-  height: 0px;
-  border: 74px solid #9C9C9C;
-  border-radius: 74px; }
-  #studio-dpad-cone.left {
-    border-top-color: #FFD080;
-    transform: rotate(270deg); }
-    #studio-dpad-cone.left.down {
-      transform: rotate(225deg); }
-    #studio-dpad-cone.left.up {
-      transform: rotate(315deg); }
-  #studio-dpad-cone.right {
-    border-top-color: #FFD080;
-    transform: rotate(90deg); }
-    #studio-dpad-cone.right.down {
-      transform: rotate(135deg); }
-    #studio-dpad-cone.right.up {
-      transform: rotate(45deg); }
-  #studio-dpad-cone.up {
-    border-top-color: #FFD080;
-    transform: rotate(0deg); }
-  #studio-dpad-cone.down {
-    border-top-color: #FFD080;
-    transform: rotate(180deg); }
-
-#studio-dpad-button {
-  display: inline;
-  position: relative;
-  border-radius: 40px;
-  width: 80px;
-  height: 80px;
-  margin: 36px 5px 5px 36px;
-  border: 1px solid #EFEFEF;
-  background-color: #FFFFFF;
-  box-shadow: 1px 1px 1px 0 #7F7F7F; }
-  #studio-dpad-button.active {
-    border: 1px solid #9F9F9F;
-    box-shadow: none; }
-  #studio-dpad-button.left {
-    left: -17px; }
-    #studio-dpad-button.left.up {
-      left: -12px;
-      top: -12px; }
-    #studio-dpad-button.left.down {
-      left: -12px;
-      top: 12px; }
-  #studio-dpad-button.right {
-    left: 17px; }
-    #studio-dpad-button.right.up {
-      left: 12px;
-      top: -12px; }
-    #studio-dpad-button.right.down {
-      left: 12px;
-      top: 12px; }
-  #studio-dpad-button.up {
-    top: -17px; }
-  #studio-dpad-button.down {
-    top: 17px; }
-
-#studio-space-button {
-  position: absolute;
-  border-radius: 40px;
-  width: 80px;
-  height: 80px;
-  right: 10px;
-  border-color: #666666;
-  background-color: #FFA000;
-  box-shadow: inset 1px 1px 0px 0 #FFD07F; }
-  #studio-space-button.active {
-    border-radius: 39px;
-    width: 78px;
-    height: 78px;
-    margin-right: 6px;
-    margin-top: 6px; }
-  #studio-space-button:focus {
-    outline: 0; }
-
 #soft-buttons {
   display: inline-block;
   vertical-align: top;
@@ -397,6 +303,8 @@ html[dir='rtl'] div#visualizationResizeBar {
   stroke: black;
   stroke-width: 1;
   cursor: default; }
+  html[dir='RTL'] .karel-counter-text {
+    text-anchor: start; }
 
 /* Shrink the visualization area on small displays. */
 #visualization.responsive > * {
@@ -1444,8 +1352,6 @@ a.WireframeButtons_active, div.WireframeButtons_active {
     left: 0;
     right: 0;
     width: auto !important; }
-  .legacy-share-view #studio-dpad-container {
-    margin-top: -24px; }
   .legacy-share-view #more-menu, .legacy-share-view #copyright-flyout {
     border-top: solid thin #202b34;
     left: 0;

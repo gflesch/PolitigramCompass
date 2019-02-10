@@ -209,10 +209,18 @@
   top: 230px;
 }
 
+#divApplab.appModern #label5 {
+  font-size: 10px;
+  height: 20px;
+  left: 170px;
+  top: 435px;
+  width: 235px;
+}
+
 #divApplab.appModern #gameScreen {
   background-color: rgb(236, 236, 236);
   background-size: 320px 450px;
-  background-image: url("https://studio.code.org/v3/assets/ISLWiqmwdy3SFJXs22FO8n3QMbsyja31yd9esXC7MUc/background.png");
+  background-image: url("https://studio.code.org/v3/assets/q3crUHfV_anTuwqKyDPwgoIOfwApyo7aOm-eh1a5tSk/background.png");
   display: none;
 }
 
@@ -649,6 +657,414 @@
   top: 245px;
 }
 
+#divApplab.appModern #text_area25 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  top: 95px;
+  text-align: left;
+  left: 20px;
+}
+
+#divApplab.appModern #text_area26 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area27 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area28 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area29 {
+  width: 280px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+  height: 145px;
+}
+
+#divApplab.appModern #text_area30 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area31 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  top: 95px;
+  left: 20px;
+}
+
+#divApplab.appModern #text_area32 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area33 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area34 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area35 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area36 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area37 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area38 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area39 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area40 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area41 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  top: 95px;
+  left: 20px;
+}
+
+#divApplab.appModern #text_area42 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area43 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area44 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area45 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area46 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area47 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area48 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  text-align: left;
+  left: 20px;
+  top: 95px;
+}
+
+#divApplab.appModern #slider25 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider26 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider27 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider28 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider29 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider30 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider31 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider32 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider33 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider34 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider35 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider36 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider37 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider38 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider39 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider40 {
+  width: 265px;
+  height: 80px;
+  top: 245px;
+  left: 25px;
+}
+
+#divApplab.appModern #slider41 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider42 {
+  width: 265px;
+  height: 80px;
+  top: 245px;
+  left: 25px;
+}
+
+#divApplab.appModern #slider43 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider44 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider45 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider46 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider47 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider48 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
 #divApplab.appModern #testResults {
   background-size: 320px 450px;
   background-image: url("https://studio.code.org/blockly/media/1x1.gif");
@@ -700,6 +1116,24 @@
   top: 393px;
 }
 
+#divApplab.appModern #parties {
+  height: 320px;
+  width: 320px;
+  top: 40px;
+}
+
+#divApplab.appModern #labels {
+  height: 320px;
+  top: 40px;
+  width: 320px;
+}
+
+#divApplab.appModern #donttread {
+  height: 320px;
+  width: 320px;
+  top: 40px;
+}
+
 #divApplab.appModern #image4 {
   height: 25px;
   width: 320px;
@@ -729,12 +1163,6 @@
   top: 364px;
 }
 
-#divApplab.appModern #labels {
-  height: 320px;
-  top: 40px;
-  width: 320px;
-}
-
 #divApplab.appModern #label6 {
   font-size: 12px;
   width: 45px;
@@ -748,12 +1176,6 @@
   top: 393px;
 }
 
-#divApplab.appModern #parties {
-  height: 320px;
-  width: 320px;
-  top: 40px;
-}
-
 #divApplab.appModern #radio_button5 {
   left: 290px;
   top: 393px;
@@ -765,4 +1187,104 @@
   height: 17px;
   left: 245px;
   top: 390px;
+}
+
+#divApplab.appModern #label7 {
+  font-size: 12px;
+  width: 58px;
+  height: 16px;
+  left: 5.89806e-17px;
+  top: 415px;
+}
+
+#divApplab.appModern #radio_button3 {
+  left: 60px;
+  top: 418px;
+}
+
+#divApplab.appModern #label9 {
+  font-size: 12px;
+  width: 95px;
+  height: 16px;
+  left: 100px;
+  top: 415px;
+}
+
+#divApplab.appModern #radio_button6 {
+  left: 196px;
+  top: 418px;
+}
+
+#divApplab.appModern #creditsScreen {
+  background-color: rgb(236, 236, 236);
+  display: none;
+}
+
+#divApplab.appModern #label10 {
+  width: 150px;
+  height: 20px;
+  left: 20px;
+  top: 165px;
+}
+
+#divApplab.appModern #label11 {
+  width: 139px;
+  top: 10px;
+}
+
+#divApplab.appModern #label12 {
+  width: 216px;
+  left: 20px;
+  top: 30px;
+}
+
+#divApplab.appModern #label13 {
+  width: 131px;
+  left: 20px;
+  top: 50px;
+}
+
+#divApplab.appModern #label14 {
+  width: 116px;
+  left: 20px;
+  top: 70px;
+}
+
+#divApplab.appModern #label15 {
+  width: 96px;
+  left: 20px;
+  top: 90px;
+}
+
+#divApplab.appModern #label16 {
+  width: 130px;
+  left: 20px;
+  top: 110px;
+}
+
+#divApplab.appModern #label17 {
+  width: 119px;
+  top: 145px;
+}
+
+#divApplab.appModern #label18 {
+  width: 83px;
+  left: 4.44089e-16px;
+  top: 200px;
+}
+
+#divApplab.appModern #label19 {
+  width: 135px;
+  height: 20px;
+  left: 20px;
+  top: 215px;
+}
+
+#divApplab.appModern #label20 {
+  font-size: 18px;
+  width: 310px;
+  height: 39px;
+  left: 5px;
+  top: 405px;
+  text-align: center;
 }
