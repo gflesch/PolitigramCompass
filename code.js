@@ -369,6 +369,7 @@ onEvent("radio_button1","click",function(){
   hideElement("labels");
   hideElement("donttread");
   hideElement("parties");
+  hideElement("politigrammers");
 });
 onEvent("radio_button2","click",function(){
   showElement("images");
@@ -376,6 +377,7 @@ onEvent("radio_button2","click",function(){
   hideElement("labels");
   hideElement("donttread");
   hideElement("parties");
+  hideElement("politigrammers");
 });
 onEvent("radio_button4","click",function(){
   hideElement("images");
@@ -383,6 +385,7 @@ onEvent("radio_button4","click",function(){
   hideElement("donttread");
   showElement("labels");
   hideElement("parties");
+  hideElement("politigrammers");
 });
 onEvent("radio_button5","click",function(){
   hideElement("images");
@@ -390,6 +393,7 @@ onEvent("radio_button5","click",function(){
   hideElement("labels");
   hideElement("donttread");
   showElement("parties");
+  hideElement("politigrammers");
 });
 onEvent("radio_button3","click",function(){
   hideElement("images");
@@ -397,4 +401,13 @@ onEvent("radio_button3","click",function(){
   hideElement("labels");
   hideElement("parties");
   showElement("donttread");
+  hideElement("politigrammers");
+});
+onEvent("radio_button6","click",function(){
+  hideElement("images");
+  hideElement("symbols");
+  hideElement("labels");
+  hideElement("parties");
+  hideElement("donttread");
+  showElement("politigrammers");
 });

@@ -1215,6 +1215,13 @@
   top: 418px;
 }
 
+#divApplab.appModern #politigrammers {
+  height: 320px;
+  width: 320px;
+  left: 1.38778e-16px;
+  top: 40px;
+}
+
 #divApplab.appModern #creditsScreen {
   background-color: rgb(236, 236, 236);
   display: none;
