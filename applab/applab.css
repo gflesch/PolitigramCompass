@@ -1645,7 +1645,6 @@ a.WireframeButtons_active, div.WireframeButtons_active {
     outline: 0; }
 
 #divApplab.notRunning img[data-canonical-image-url=''], #divApplab.notRunning canvas:not(#turtleCanvas), #divApplab.notRunning .chart, #designModeViz.appModern img[data-canonical-image-url=''], #designModeViz.appModern canvas:not(#turtleCanvas), #designModeViz.appModern .chart, .draggingParent img[data-canonical-image-url=''], .draggingParent canvas:not(#turtleCanvas), .draggingParent .chart {
-  border: 5px solid #fff;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   outline: 1px solid #bdc3c7;
