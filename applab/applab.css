@@ -1365,6 +1365,10 @@ a.WireframeButtons_active, div.WireframeButtons_active {
 .embedded_iframe #visualizationColumn.wireframeShare {
   padding: 0; }
 
+#manageAssetsModal {
+  width: 800px;
+  margin-left: -400px; }
+
 #rotateContainer {
   display: none; }
   @media screen and (orientation: portrait) and (max-device-width: 900px) {
@@ -1962,10 +1966,6 @@ div#visualizationResizeBar {
   border-color: #a69bc1;
   background-color: #a69bc1;
   color: white; }
-
-#manageAssetsModal {
-  width: 800px;
-  margin-left: -400px; }
 
 .assetRow {
   border-bottom: 1px solid #999; }
