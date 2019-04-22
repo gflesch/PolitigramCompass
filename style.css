@@ -52,13 +52,14 @@
   padding-bottom: 2px;
   padding-left: 2px;
   line-height: 1;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
   overflow-x: hidden;
   overflow-y: hidden;
   overflow-wrap: break-word;
-  color: rgb(51, 51, 51);
   max-width: 320px;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
   border-top-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
@@ -75,7 +76,7 @@
   border-top-right-radius: 0px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
-  width: 27px;
+  width: 28px;
   height: 18px;
   position: absolute;
   left: 0px;
@@ -131,13 +132,14 @@
 #divApplab.appModern select.appModernDesign:hover {
   width: 200px;
   height: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
   color: rgb(255, 255, 255);
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20256%20448%22%20enable-background%3D%22new%200%200%20256%20448%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.arrow%7Bfill%3A%23ffffff%3B%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22arrow%22%20d%3D%22M255.9%20168c0-4.2-1.6-7.9-4.8-11.2-3.2-3.2-6.9-4.8-11.2-4.8H16c-4.2%200-7.9%201.6-11.2%204.8S0%20163.8%200%20168c0%204.4%201.6%208.2%204.8%2011.4l112%20112c3.1%203.1%206.8%204.6%2011.2%204.6%204.4%200%208.2-1.5%2011.4-4.6l112-112c3-3.2%204.5-7%204.5-11.4z%22%2F%3E%3C%2Fsvg%3E");
   background-color: rgb(26, 188, 156);
   border-top-style: solid;
   border-right-style: solid;
@@ -314,7 +316,7 @@
 #divApplab.appModern #label5 {
   font-size: 10px;
   height: 20px;
-  left: 170px;
+  left: 200px;
   top: 435px;
   width: 235px;
 }
@@ -322,7 +324,7 @@
 #divApplab.appModern #gameScreen {
   background-color: rgb(236, 236, 236);
   background-size: 320px 450px;
-  background-image: url("https://studio.code.org/v3/assets/q3crUHfV_anTuwqKyDPwgoIOfwApyo7aOm-eh1a5tSk/background.png");
+  background-image: url("https://studio.code.org/v3/assets/ISLWiqmwdy3SFJXs22FO8n3QMbsyja31yd9esXC7MUc/background.png");
   display: none;
 }
 
@@ -764,9 +766,9 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  top: 95px;
-  text-align: left;
   left: 20px;
+  text-align: left;
+  top: 95px;
 }
 
 #divApplab.appModern #text_area26 {
@@ -774,8 +776,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -784,8 +786,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -794,19 +796,19 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
 #divApplab.appModern #text_area29 {
   width: 280px;
+  height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
-  height: 145px;
 }
 
 #divApplab.appModern #text_area30 {
@@ -814,8 +816,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -824,9 +826,9 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
+  left: 20px;
   text-align: left;
   top: 95px;
-  left: 20px;
 }
 
 #divApplab.appModern #text_area32 {
@@ -834,8 +836,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -844,8 +846,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -854,8 +856,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -864,8 +866,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -874,8 +876,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -884,8 +886,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -894,8 +896,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -904,8 +906,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -914,8 +916,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -924,9 +926,9 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
+  left: 20px;
   text-align: left;
   top: 95px;
-  left: 20px;
 }
 
 #divApplab.appModern #text_area42 {
@@ -934,8 +936,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -944,8 +946,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -954,8 +956,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -964,8 +966,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -974,8 +976,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -984,8 +986,8 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -994,8 +996,168 @@
   height: 145px;
   font-size: 12px;
   background-color: rgb(249, 249, 249);
-  text-align: left;
   left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area49 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area50 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area51 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area52 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area53 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area54 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area55 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area56 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area57 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area58 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area59 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area60 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area61 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area62 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area63 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
+  top: 95px;
+}
+
+#divApplab.appModern #text_area64 {
+  width: 280px;
+  height: 145px;
+  font-size: 12px;
+  background-color: rgb(249, 249, 249);
+  left: 20px;
+  text-align: left;
   top: 95px;
 }
 
@@ -1107,8 +1269,8 @@
 #divApplab.appModern #slider40 {
   width: 265px;
   height: 80px;
-  top: 245px;
   left: 25px;
+  top: 245px;
 }
 
 #divApplab.appModern #slider41 {
@@ -1121,8 +1283,8 @@
 #divApplab.appModern #slider42 {
   width: 265px;
   height: 80px;
-  top: 245px;
   left: 25px;
+  top: 245px;
 }
 
 #divApplab.appModern #slider43 {
@@ -1161,6 +1323,118 @@
 }
 
 #divApplab.appModern #slider48 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider49 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider50 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider51 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider52 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider53 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider54 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider55 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider56 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider57 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider58 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider59 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider60 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider61 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider62 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider63 {
+  width: 265px;
+  height: 80px;
+  left: 25px;
+  top: 245px;
+}
+
+#divApplab.appModern #slider64 {
   width: 265px;
   height: 80px;
   left: 25px;
@@ -1207,8 +1481,8 @@
 
 #divApplab.appModern #label2 {
   font-size: 12px;
-  width: 48px;
-  height: 17px;
+  width: 45px;
+  height: 16px;
   top: 390px;
   left: 80px;
 }
@@ -1216,24 +1490,6 @@
 #divApplab.appModern #radio_button2 {
   left: 130px;
   top: 393px;
-}
-
-#divApplab.appModern #parties {
-  height: 320px;
-  width: 320px;
-  top: 40px;
-}
-
-#divApplab.appModern #labels {
-  height: 320px;
-  top: 40px;
-  width: 320px;
-}
-
-#divApplab.appModern #donttread {
-  height: 320px;
-  width: 320px;
-  top: 40px;
 }
 
 #divApplab.appModern #image4 {
@@ -1265,6 +1521,12 @@
   top: 364px;
 }
 
+#divApplab.appModern #labels {
+  height: 320px;
+  top: 40px;
+  width: 320px;
+}
+
 #divApplab.appModern #label6 {
   font-size: 12px;
   width: 45px;
@@ -1278,6 +1540,12 @@
   top: 393px;
 }
 
+#divApplab.appModern #politigrammers {
+  height: 320px;
+  width: 320px;
+  top: 40px;
+}
+
 #divApplab.appModern #radio_button5 {
   left: 290px;
   top: 393px;
@@ -1285,115 +1553,45 @@
 
 #divApplab.appModern #label8 {
   font-size: 12px;
-  width: 46px;
-  height: 17px;
-  left: 245px;
-  top: 390px;
-}
-
-#divApplab.appModern #label7 {
-  font-size: 12px;
-  width: 58px;
+  width: 54px;
   height: 16px;
-  left: 5.89806e-17px;
-  top: 415px;
-}
-
-#divApplab.appModern #radio_button3 {
-  left: 60px;
-  top: 418px;
+  left: 235px;
+  top: 390px;
 }
 
 #divApplab.appModern #label9 {
   font-size: 12px;
-  width: 95px;
-  height: 16px;
-  left: 100px;
-  top: 415px;
+  width: 77px;
+  height: 15px;
+  top: 420px;
 }
 
-#divApplab.appModern #radio_button6 {
-  left: 196px;
-  top: 418px;
+#divApplab.appModern #radio_button3 {
+  top: 423px;
+  left: 80px;
 }
 
-#divApplab.appModern #politigrammers {
+#divApplab.appModern #\32 020 {
   height: 320px;
   width: 320px;
-  left: 1.38778e-16px;
   top: 40px;
 }
 
 #divApplab.appModern #creditsScreen {
-  background-color: rgb(236, 236, 236);
   display: none;
+  background-color: rgb(236, 236, 236);
+}
+
+#divApplab.appModern #image3 {
+  height: 450px;
+  width: 320px;
+  left: -8px;
 }
 
 #divApplab.appModern #label10 {
-  width: 150px;
+  background-color: rgb(236, 236, 236);
+  width: 120px;
   height: 20px;
-  left: 20px;
-  top: 165px;
-}
-
-#divApplab.appModern #label11 {
-  width: 139px;
-  top: 10px;
-}
-
-#divApplab.appModern #label12 {
-  width: 216px;
-  left: 20px;
-  top: 30px;
-}
-
-#divApplab.appModern #label13 {
-  width: 131px;
-  left: 20px;
-  top: 50px;
-}
-
-#divApplab.appModern #label14 {
-  width: 116px;
-  left: 20px;
-  top: 70px;
-}
-
-#divApplab.appModern #label15 {
-  width: 96px;
-  left: 20px;
-  top: 90px;
-}
-
-#divApplab.appModern #label16 {
-  width: 130px;
-  left: 20px;
-  top: 110px;
-}
-
-#divApplab.appModern #label17 {
-  width: 119px;
-  top: 145px;
-}
-
-#divApplab.appModern #label18 {
-  width: 83px;
-  left: 4.44089e-16px;
-  top: 200px;
-}
-
-#divApplab.appModern #label19 {
-  width: 135px;
-  height: 20px;
-  left: 20px;
-  top: 215px;
-}
-
-#divApplab.appModern #label20 {
-  font-size: 18px;
-  width: 310px;
-  height: 39px;
-  left: 5px;
-  top: 405px;
-  text-align: center;
+  left: 19px;
+  top: 216px;
 }
