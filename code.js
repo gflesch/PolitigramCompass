@@ -73,6 +73,62 @@ var yCoord = 0;
 var zValue = 0;
 var zPosition = 0;
 var zCoord = 0;
+var distance;
+var zCoords = [-9,9.5,9,-10,-8,-5,-3.63,4.5,-8,-8,-10,4,-4.63,-6,4,5.5,-10,-10,-9,-9,0,-5.25,8.5,0,-8,-7,7.63,-5,-0.38,-6,-9,0.13,-7.1];
+//              0 1   2  3   4  5  6    7    8  9  10 11 12   13   15  16  17  18 19 20 21    22  23 24 25 26  27  28   29 30 
+//                                                              14                                                           31   32
+var distances = [];
+var sortedDistances = [];
+var usernames = ["teen.politics.official","charlemagnes_corner","rightwingism","leftistbaby","progressive.politico","feldstein.philosophy","southern_leftist","tread.not","teen.politics.official","social.liberals","max_stirner_fanpage","makeliberalismclassicalagain","deafpatriot","angryamericans","libertylover2","refoundingfather","ancomcatz","broken.bones.and.civilizations","kiwimutualist","anpacball","individualist.libertarian","virginiaforbiden","right_wing_imperial","anarchistunity","texansocialdem","liberallibertarian","visionary.arabia","social.dem.official","palmetto_state_bluedog","sovereigntyism","lippie.liberty","massachusite","lib_confederalism"];
+var sortedUsernames = [];
+var maxDistance;
+var maxIndex;
+var pfpXCoord = 0;
+var pfpYCoord = 0;
+var pfpZCoord = 0;
+var count = 0;
+function calculateDistances(){
+  for (var i = 0; i < 32; i++) {
+    pfpXCoord =(getXPosition("pfp"+i)-160)/16;
+    pfpYCoord =(160-(getYPosition("pfp"+i)-40))/16;
+    pfpZCoord =zCoords[i];
+    distance =Math.pow((Math.pow((xCoord-pfpXCoord),2)+Math.pow((yCoord-pfpYCoord),2) + Math.pow((zCoord-zCoords[i]),2)),0.5);
+    console.log("("+getXPosition("pfp"+i)+","+getYPosition("pfp"+i)+")");
+    console.log(((xCoord-((getXPosition("pfp"+i)-160)/16))^2));
+    console.log(((yCoord-((160-(getYPosition("pfp"+i)-40))/16))^2));
+    console.log(((zCoord-zCoords[i])^2));
+    appendItem(distances,distance);
+  }
+  for (var k = 0; k < 32; k++) {
+    console.log(distances);
+    maxDistance = distances[0];
+    for (var j = 1; j < distances.length; j++) {
+      if(maxDistance < distances[j]){
+        maxDistance = distances[j];
+        maxIndex = j;
+      }
+    }
+    if(maxDistance == distances[0]){
+      maxIndex = 0;
+    }
+    console.log("maxIndex: " + maxIndex);
+    insertItem(sortedDistances,0,maxDistance);
+    insertItem(sortedUsernames,0,usernames[maxIndex]);
+    removeItem(distances,maxIndex);
+    removeItem(usernames,maxIndex);
+  }
+}
+function displayMatches(){
+  for (var l = 0; l < 10; l++) {
+   setText("percent" + l,Math.round(100-(2.8868*sortedDistances[l])) + "%");
+   setText("username" + l,sortedUsernames[l]);
+   setProperty("percent" + l,"text-color",rgb(sortedDistances[l]*10,(1/sortedDistances[l])*255,0));
+   /* showElement("lpfp"+l);
+   setPosition("lpfp"+l,160,50+(l*40)); */
+   console.log(sortedDistances);
+   console.log(sortedUsernames);
+  }
+}
 function endTest(){
   calculatePlacement("x");
   calculatePlacement("y");
@@ -116,6 +172,16 @@ function nextQuestion(){
   showElement(currentSlider);
   console.log(currentQuest);
   showElement(currentQuest);
+}
+function hidePfps(){
+  for (var z = 0; z < zCoords.length; z++) {
+    hideElement("pfp"+z);
+  }
+}
+function showPfps(){
+  for (var q = 0; q < zCoords.length; q++) {
+    showElement("pfp"+q);
+  }
 }
 onEvent("button1","click",function(){
   setScreen("gameScreen");
@@ -459,38 +525,51 @@ onEvent("button2","click",function(){
 onEvent("button3", "click", function(){
   setScreen("creditsScreen");
 });
+onEvent("button4", "click", function(){
+  if(count == 0){
+    calculateDistances();
+    setScreen("testResults2");
+    displayMatches();
+    count++;
+  } else {
+    setScreen("testResults2");
+  }
+});
+onEvent("button5", "click", function(){
+  setScreen("testResults");
+});
 onEvent("radio_button1","click",function(){
   showElement("symbols");
   hideElement("images");
   hideElement("labels");
-  hideElement("politigrammers");
+  hidePfps();
   hideElement("2020");
 });
 onEvent("radio_button2","click",function(){
   showElement("images");
   hideElement("symbols");
   hideElement("labels");
-  hideElement("politigrammers");
+  hidePfps();
   hideElement("2020");
 });
 onEvent("radio_button4","click",function(){
   hideElement("images");
   hideElement("symbols");
   showElement("labels");
-  hideElement("politigrammers");
+  hidePfps();
   hideElement("2020");
 });
 onEvent("radio_button5","click",function(){
   hideElement("images");
   hideElement("symbols");
   hideElement("labels");
-  showElement("politigrammers");
+  showPfps();
   hideElement("2020");
 });
 onEvent("radio_button3","click",function(){
   hideElement("images");
   hideElement("symbols");
   hideElement("labels");
-  hideElement("politigrammers");
+  hidePfps();
   showElement("2020");
 });
