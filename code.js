@@ -73,7 +73,6 @@ var yCoord = 0;
 var zValue = 0;
 var zPosition = 0;
 var zCoord = 0;
-var zCoords = [-9,9.5,9,-10,-8,-5,-3.63,4.5,-8,-8,-10,4,-4.63,-6,4,5.5,-10,-10,-9,-9,0,-5.25,8.5,0,-8,-7,7.63,-5,-0.38,-6,-9,0.13,-7.1];
 var count = 0;
 function endTest(){
   calculatePlacement("x");
@@ -120,12 +119,12 @@ function nextQuestion(){
   showElement(currentQuest);
 }
 function hidePfps(){
-  for (var z = 0; z < zCoords.length; z++) {
+  for (var z = 0; z < 33; z++) {
     hideElement("pfp"+z);
   }
 }
 function showPfps(){
-  for (var q = 0; q < zCoords.length; q++) {
+  for (var q = 0; q < 33; q++) {
     showElement("pfp"+q);
   }
 }
