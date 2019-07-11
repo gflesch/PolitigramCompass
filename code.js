@@ -73,7 +73,6 @@ var yCoord = 0;
 var zValue = 0;
 var zPosition = 0;
 var zCoord = 0;
-var count = 0;
 function endTest(){
   calculatePlacement("x");
   calculatePlacement("y");
@@ -117,16 +116,6 @@ function nextQuestion(){
   showElement(currentSlider);
   console.log(currentQuest);
   showElement(currentQuest);
-}
-function hidePfps(){
-  for (var z = 0; z < zCoords.length; z++) {
-    hideElement("pfp"+z);
-  }
-}
-function showPfps(){
-  for (var q = 0; q < zCoords.length; q++) {
-    showElement("pfp"+q);
-  }
 }
 onEvent("button1","click",function(){
   setScreen("gameScreen");
@@ -470,51 +459,38 @@ onEvent("button2","click",function(){
 onEvent("button3", "click", function(){
   setScreen("creditsScreen");
 });
-onEvent("button4", "click", function(){
-  if(count == 0){
-    calculateDistances();
-    setScreen("testResults2");
-    displayMatches();
-    count++;
-  } else {
-    setScreen("testResults2");
-  }
-});
-onEvent("button5", "click", function(){
-  setScreen("testResults");
-});
 onEvent("radio_button1","click",function(){
   showElement("symbols");
   hideElement("images");
   hideElement("labels");
-  hidePfps();
+  hideElement("politigrammers");
   hideElement("2020");
 });
 onEvent("radio_button2","click",function(){
   showElement("images");
   hideElement("symbols");
   hideElement("labels");
-  hidePfps();
+  hideElement("politigrammers");
   hideElement("2020");
 });
 onEvent("radio_button4","click",function(){
   hideElement("images");
   hideElement("symbols");
   showElement("labels");
-  hidePfps();
+  hideElement("politigrammers");
   hideElement("2020");
 });
 onEvent("radio_button5","click",function(){
   hideElement("images");
   hideElement("symbols");
   hideElement("labels");
-  showPfps();
+  showElement("politigrammers");
   hideElement("2020");
 });
 onEvent("radio_button3","click",function(){
   hideElement("images");
   hideElement("symbols");
   hideElement("labels");
-  hidePfps();
+  hideElement("politigrammers");
   showElement("2020");
 });

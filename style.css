@@ -14,17 +14,14 @@
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+  height: 30px;
+  width: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
   border-top-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
   border-left-style: solid;
-  height: 30px;
-  width: 80px;
-  background-color: rgb(26, 188, 156);
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
   border-top-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 0px;
@@ -33,9 +30,12 @@
   border-right-color: rgb(0, 0, 0);
   border-bottom-color: rgb(0, 0, 0);
   border-left-color: rgb(0, 0, 0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
   color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  background-color: rgb(26, 188, 156);
   position: absolute;
   left: 0px;
   top: 0px;
@@ -47,35 +47,35 @@
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
   line-height: 1;
   overflow-x: hidden;
   overflow-y: hidden;
   overflow-wrap: break-word;
   max-width: 320px;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
   border-top-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
   border-left-style: solid;
-  background-color: rgba(0, 0, 0, 0);
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
   border-top-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 0px;
   border-left-width: 0px;
-  border-top-color: rgb(153, 153, 153);
-  border-right-color: rgb(153, 153, 153);
-  border-bottom-color: rgb(153, 153, 153);
-  border-left-color: rgb(153, 153, 153);
-  color: rgb(51, 51, 51);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  padding-top: 2px;
-  padding-right: 2px;
-  padding-bottom: 2px;
-  padding-left: 2px;
+  border-top-color: rgb(0, 0, 0);
+  border-right-color: rgb(0, 0, 0);
+  border-bottom-color: rgb(0, 0, 0);
+  border-left-color: rgb(0, 0, 0);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
   width: 28px;
   height: 18px;
   position: absolute;
@@ -91,15 +91,13 @@
   margin-left: 0px;
   width: 200px;
   height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
   border-top-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
   border-left-style: solid;
-  background-color: rgb(255, 255, 255);
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
   border-top-width: 1px;
   border-right-width: 1px;
   border-bottom-width: 1px;
@@ -108,13 +106,10 @@
   border-right-color: rgb(153, 153, 153);
   border-bottom-color: rgb(153, 153, 153);
   border-left-color: rgb(153, 153, 153);
-  color: rgb(0, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -141,15 +136,15 @@
   margin-right: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20256%20448%22%20enable-background%3D%22new%200%200%20256%20448%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.arrow%7Bfill%3A%23ffffff%3B%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22arrow%22%20d%3D%22M255.9%20168c0-4.2-1.6-7.9-4.8-11.2-3.2-3.2-6.9-4.8-11.2-4.8H16c-4.2%200-7.9%201.6-11.2%204.8S0%20163.8%200%20168c0%204.4%201.6%208.2%204.8%2011.4l112%20112c3.1%203.1%206.8%204.6%2011.2%204.6%204.4%200%208.2-1.5%2011.4-4.6l112-112c3-3.2%204.5-7%204.5-11.4z%22%2F%3E%3C%2Fsvg%3E");
+  background-color: rgb(26, 188, 156);
   border-top-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
   border-left-style: solid;
-  background-color: rgb(26, 188, 156);
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
   border-top-width: 0px;
   border-right-width: 0px;
   border-bottom-width: 0px;
@@ -158,14 +153,10 @@
   border-right-color: rgb(0, 0, 0);
   border-bottom-color: rgb(0, 0, 0);
   border-left-color: rgb(0, 0, 0);
-  color: rgb(255, 255, 255);
-  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20256%20448%22%20enable-background%3D%22new%200%200%20256%20448%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E.arrow%7Bfill%3A%23ffffff%3B%7D%3C%2Fstyle%3E%3Cpath%20class%3D%22arrow%22%20d%3D%22M255.9%20168c0-4.2-1.6-7.9-4.8-11.2-3.2-3.2-6.9-4.8-11.2-4.8H16c-4.2%200-7.9%201.6-11.2%204.8S0%20163.8%200%20168c0%204.4%201.6%208.2%204.8%2011.4l112%20112c3.1%203.1%206.8%204.6%2011.2%204.6%204.4%200%208.2-1.5%2011.4-4.6l112-112c3-3.2%204.5-7%204.5-11.4z%22%2F%3E%3C%2Fsvg%3E");
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  padding-top: 0px;
-  padding-right: 30px;
-  padding-bottom: 0px;
-  padding-left: 10px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -188,15 +179,14 @@
 #divApplab.appModern div.textArea.appModernDesign:hover {
   width: 200px;
   height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   border-top-style: solid;
   border-right-style: solid;
   border-bottom-style: solid;
   border-left-style: solid;
-  background-color: rgb(255, 255, 255);
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
   border-top-width: 1px;
   border-right-width: 1px;
   border-bottom-width: 1px;
@@ -205,13 +195,10 @@
   border-right-color: rgb(153, 153, 153);
   border-bottom-color: rgb(153, 153, 153);
   border-left-color: rgb(153, 153, 153);
-  color: rgb(0, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -272,7 +259,6 @@
   top: 0px;
   position: absolute;
   z-index: 0;
-  background-color: rgb(255, 255, 255);
 }
 
 #divApplab.appModern div.chart.appModernDesign,
@@ -333,16 +319,12 @@
   left: 200px;
   top: 435px;
   width: 235px;
-  border-top-color: rgb(0, 0, 0);
-  border-right-color: rgb(0, 0, 0);
-  border-bottom-color: rgb(0, 0, 0);
-  border-left-color: rgb(0, 0, 0);
 }
 
 #divApplab.appModern #gameScreen {
   background-color: rgb(236, 236, 236);
   background-size: 320px 450px;
-  background-image: url("https://studio.code.org/v3/assets/r0ui70gW3RTqk7fVfG1eElnfnzpzXRCSBKU--pHAZto/background.png");
+  background-image: url("https://studio.code.org/v3/assets/ISLWiqmwdy3SFJXs22FO8n3QMbsyja31yd9esXC7MUc/background.png");
   display: none;
 }
 
@@ -522,10 +504,6 @@
   height: 19px;
   left: 25px;
   top: 295px;
-  border-top-color: rgb(0, 0, 0);
-  border-right-color: rgb(0, 0, 0);
-  border-bottom-color: rgb(0, 0, 0);
-  border-left-color: rgb(0, 0, 0);
 }
 
 #divApplab.appModern #label4 {
@@ -533,10 +511,6 @@
   height: 19px;
   left: 240px;
   top: 295px;
-  border-top-color: rgb(0, 0, 0);
-  border-right-color: rgb(0, 0, 0);
-  border-bottom-color: rgb(0, 0, 0);
-  border-left-color: rgb(0, 0, 0);
 }
 
 #divApplab.appModern #button2 {
@@ -1498,10 +1472,6 @@
   width: 56px;
   height: 17px;
   top: 390px;
-  border-top-color: rgb(0, 0, 0);
-  border-right-color: rgb(0, 0, 0);
-  border-bottom-color: rgb(0, 0, 0);
-  border-left-color: rgb(0, 0, 0);
 }
 
 #divApplab.appModern #radio_button1 {
@@ -1515,10 +1485,6 @@
   height: 16px;
   top: 390px;
   left: 80px;
-  border-top-color: rgb(0, 0, 0);
-  border-right-color: rgb(0, 0, 0);
-  border-bottom-color: rgb(0, 0, 0);
-  border-left-color: rgb(0, 0, 0);
 }
 
 #divApplab.appModern #radio_button2 {
@@ -1536,9 +1502,9 @@
   height: 20px;
   width: 50px;
   font-size: 9px;
-  background-color: rgb(234, 0, 0);
+  background-color: rgb(0, 185, 234);
   left: 265px;
-  top: 5px;
+  top: 425px;
 }
 
 #divApplab.appModern #dot {
@@ -1567,15 +1533,17 @@
   height: 20px;
   top: 390px;
   left: 165px;
-  border-top-color: rgb(0, 0, 0);
-  border-right-color: rgb(0, 0, 0);
-  border-bottom-color: rgb(0, 0, 0);
-  border-left-color: rgb(0, 0, 0);
 }
 
 #divApplab.appModern #radio_button4 {
   left: 208px;
   top: 393px;
+}
+
+#divApplab.appModern #politigrammers {
+  height: 320px;
+  width: 320px;
+  top: 40px;
 }
 
 #divApplab.appModern #radio_button5 {
@@ -1589,18 +1557,10 @@
   height: 16px;
   left: 235px;
   top: 390px;
-  border-top-color: rgb(0, 0, 0);
-  border-right-color: rgb(0, 0, 0);
-  border-bottom-color: rgb(0, 0, 0);
-  border-left-color: rgb(0, 0, 0);
 }
 
 #divApplab.appModern #label9 {
   font-size: 12px;
-  border-top-color: rgb(0, 0, 0);
-  border-right-color: rgb(0, 0, 0);
-  border-bottom-color: rgb(0, 0, 0);
-  border-left-color: rgb(0, 0, 0);
   width: 77px;
   height: 15px;
   top: 420px;
@@ -1617,246 +1577,6 @@
   top: 40px;
 }
 
-#divApplab.appModern #pfp8 {
-  height: 25px;
-  width: 25px;
-  top: 245px;
-  left: 70px;
-}
-
-#divApplab.appModern #pfp0 {
-  height: 25px;
-  width: 25px;
-  top: 333px;
-  left: 167px;
-}
-
-#divApplab.appModern #pfp19 {
-  height: 25px;
-  width: 25px;
-  top: 329px;
-  left: 145px;
-}
-
-#divApplab.appModern #pfp1 {
-  height: 25px;
-  width: 25px;
-  top: 80px;
-  left: 155px;
-}
-
-#divApplab.appModern #pfp20 {
-  height: 25px;
-  width: 25px;
-  top: 335px;
-  left: 155px;
-}
-
-#divApplab.appModern #pfp2 {
-  height: 25px;
-  width: 25px;
-  top: 95px;
-  left: 165px;
-}
-
-#divApplab.appModern #pfp32 {
-  height: 25px;
-  width: 25px;
-  top: 310px;
-  left: 90px;
-}
-
-#divApplab.appModern #pfp3 {
-  height: 25px;
-  width: 25px;
-  top: 185px;
-  left: -1.66533e-16px;
-}
-
-#divApplab.appModern #pfp18 {
-  height: 25px;
-  width: 25px;
-  top: 325px;
-  left: 80px;
-}
-
-#divApplab.appModern #pfp10 {
-  height: 25px;
-  width: 25px;
-  top: 305px;
-  left: 20px;
-}
-
-#divApplab.appModern #pfp16 {
-  height: 25px;
-  width: 25px;
-  top: 335px;
-  left: -2.22045e-16px;
-}
-
-#divApplab.appModern #pfp17 {
-  height: 25px;
-  width: 25px;
-  top: 320px;
-  left: 20px;
-}
-
-#divApplab.appModern #pfp5 {
-  height: 25px;
-  width: 25px;
-  top: 175px;
-  left: 180px;
-}
-
-#divApplab.appModern #pfp9 {
-  height: 25px;
-  width: 25px;
-  top: 270px;
-  left: 95px;
-}
-
-#divApplab.appModern #pfp15 {
-  height: 25px;
-  width: 25px;
-  top: 300px;
-  left: 283px;
-}
-
-#divApplab.appModern #pfp13 {
-  height: 25px;
-  width: 25px;
-  top: 315px;
-  left: 266px;
-}
-
-#divApplab.appModern #pfp14 {
-  height: 25px;
-  width: 25px;
-  top: 315px;
-  left: 279px;
-}
-
-#divApplab.appModern #pfp12 {
-  height: 25px;
-  width: 25px;
-  top: 308px;
-  left: 253px;
-}
-
-#divApplab.appModern #pfp11 {
-  height: 25px;
-  width: 25px;
-  top: 305px;
-  left: 245px;
-}
-
-#divApplab.appModern #pfp4 {
-  height: 25px;
-  width: 25px;
-  top: 195px;
-  left: 100px;
-}
-
-#divApplab.appModern #pfp6 {
-  height: 25px;
-  width: 25px;
-  top: 210px;
-  left: 80px;
-}
-
-#divApplab.appModern #pfp7 {
-  height: 25px;
-  width: 25px;
-  top: 225px;
-  left: 285px;
-}
-
-#divApplab.appModern #button4 {
-  height: 20px;
-  width: 50px;
-  font-size: 9px;
-  background-color: rgb(6, 179, 11);
-  left: 265px;
-  top: 425px;
-}
-
-#divApplab.appModern #pfp21 {
-  height: 25px;
-  width: 25px;
-  top: 155px;
-  left: 147px;
-}
-
-#divApplab.appModern #pfp22 {
-  height: 25px;
-  width: 25px;
-  top: 120px;
-  left: 145px;
-}
-
-#divApplab.appModern #pfp23 {
-  height: 25px;
-  width: 25px;
-  top: 335px;
-  left: 210px;
-}
-
-#divApplab.appModern #pfp24 {
-  height: 25px;
-  width: 25px;
-  top: 210px;
-  left: 120px;
-}
-
-#divApplab.appModern #pfp26 {
-  height: 25px;
-  width: 25px;
-  top: 65px;
-  left: 275px;
-}
-
-#divApplab.appModern #pfp27 {
-  height: 25px;
-  width: 25px;
-  top: 230px;
-  left: 95px;
-}
-
-#divApplab.appModern #pfp28 {
-  height: 25px;
-  width: 25px;
-  top: 200px;
-  left: 205px;
-}
-
-#divApplab.appModern #pfp29 {
-  height: 25px;
-  width: 25px;
-  top: 335px;
-  left: 295px;
-}
-
-#divApplab.appModern #pfp30 {
-  height: 25px;
-  width: 25px;
-  top: 325px;
-  left: 100px;
-}
-
-#divApplab.appModern #pfp31 {
-  height: 25px;
-  width: 25px;
-  top: 130px;
-  left: 70px;
-}
-
-#divApplab.appModern #pfp25 {
-  height: 25px;
-  width: 25px;
-  top: 310px;
-  left: 185px;
-}
-
 #divApplab.appModern #creditsScreen {
   display: none;
   background-color: rgb(236, 236, 236);
@@ -1870,10 +1590,6 @@
 
 #divApplab.appModern #label10 {
   background-color: rgb(236, 236, 236);
-  border-top-color: rgb(0, 0, 0);
-  border-right-color: rgb(0, 0, 0);
-  border-bottom-color: rgb(0, 0, 0);
-  border-left-color: rgb(0, 0, 0);
   width: 120px;
   height: 20px;
   left: 19px;
