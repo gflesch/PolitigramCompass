@@ -73,110 +73,6 @@ var yCoord = 0;
 var zValue = 0;
 var zPosition = 0;
 var zCoord = 0;
-var distance;
-var distances = [];
-var maxDistance;
-var maxIndex;
-var sortedDistances = [];
-var usernames = ["teen.politics.official","charlemagnes_corner","rightwingism","leftistbaby","progressive.politico","feldstein.philosophy","southern_leftist","tread.not","teen.politics.official","social.liberals","max_stirner_fanpage","makeliberalismclassicalagain","deafpatriot","angryamericans","libertylover2","refoundingfather","ancomcatz","broken.bones.and.civilizations","kiwimutualist","anpacball","individualist.libertarian","virginiaforbiden","right_wing_imperial","anarchistunity","texansocialdem","liberallibertarian","visionary.arabia","social.dem.official","palmetto_state_bluedog","sovereigntyism","lippie.liberty","massachusite","lib_confederalism","soc.leftist"];
-var sortedUsernames = [];
-var pfpXCoord = 0;
-var pfpYCoord = 0;
-var pfpZCoord = 0;
-var xCoords = [1.5,0.5,1.1,-10,-2.88,2.5,-3.88,8.88,-4,-2.88,-9,6.25,6.4,7.5,8.6,9,-10,-9,-4.13,-0.2,-0.25,-0.38,-0.13,4,-4.58,1.88,8.13,-3,3,10,3.75,-4.63,-0.1,-10];
-//             0   1   2    3   4    5    6    7     8  9    10 11   12  13  14  15 16 17 18     19   20    21    22  23 24    25   26   27 28 29 30  31     32   33
-var yCoords = [-8.38,7.6,7.0,0,-0.63,1.13,-1.38,-2.50,-3.2,-5.13,-7.75,-7.13,-7.2,-8.13,-8.13,-7.0,10,-8.38,-8.6,-9.1,-10,2,4.13,-9,-2,-7.75,7.88,-3,-1.25,-10,-8.7,3.5,-7,4];
-//             0     1   2   3  4    5     6     7     8    9     10    11    13   14   14     15  16  17   18    19   20 21 22  23  24 25   26    27  28   29 30   31  32 33
-var zCoords = [-9,9.5,9,-10,-8,0.25,-3.63,4.5,-8,-8,-10,4,-4.63,-6,4,5.5,-10,-10,-9,-9,0,-5.25,8.5,0,-8,-7,7.63,-5,-0.38,-6,-9,0.13,-7.1,-9.63];
-//              0 1   2  3   4  5  6    7    8  9  10 11 12   13   15  16  17  18 19 20 21    22  23 24 25 26  27  28   29 30 
-//                                                              14                                                           31   32     33
-var canXCoords = [1.8,-0.6,-4,2,2,1.3,0.9,-2.2,-0.1,0.8,-1.1,3.4];
-var canYCoords = [1.1,-0.5,-2.6,3.5,2.2,2.7,-0.3,0.7,1.5,1,3.7];
-var canZCoords = [-1.5,-4,-8,0.25,-3,-3,-7.6,-2,-3,-6.9,7];
-var canNames = ["Amy Klobuchar","Tusli Gabbard","Mike Gravel","Joe Biden","Cory Brooker","Kamala Harris","Bernie Sanders","Andrew Yang","Pete Butigieg","Elizabeth Warren","Donald Trump"];                            
-var sortedCanNames = [];
-var canDistances = [];
-var sortedCanDistances = [];
-var candidateXCoord = 0;
-var candidateYCoord = 0;
-var candidateZCoord = 0;
-var canDistance;
-var maxCanDistance;
-var maxCanIndex;
-var count = -1;
-function calculatePfpDistances(){
-  for (var i = 0; i < 32; i++) {
-    pfpXCoord =xCoords[i];
-    pfpYCoord =yCoords[i];
-    pfpZCoord =zCoords[i];
-    distance =Math.pow((Math.pow((xCoord-pfpXCoord),2)+Math.pow((yCoord-pfpYCoord),2) + Math.pow((zCoord-zCoords[i]),2)),0.5);
-    appendItem(distances,distance);
-  }
-  for (var k = 0; k < 32; k++) {
-    console.log(distances);
-    maxDistance = distances[0];
-    for (var j = 1; j < distances.length; j++) {
-      if(maxDistance < distances[j]){
-        maxDistance = distances[j];
-        maxIndex = j;
-      }
-    }
-    if(maxDistance == distances[0]){
-      maxIndex = 0;
-    }
-    console.log("maxIndex: " + maxIndex);
-    insertItem(sortedDistances,0,maxDistance);
-    insertItem(sortedUsernames,0,usernames[maxIndex]);
-    removeItem(distances,maxIndex);
-    removeItem(usernames,maxIndex);
-  }
-}
-function displayPfpMatches(){
-  for (var l = 0; l < 10; l++) {
-   setText("percent" + l,Math.round(100-(2.88675134595*sortedDistances[l])) + "%");
-   setText("username" + l,sortedUsernames[l]);
-   setProperty("percent" + l,"text-color",rgb(sortedDistances[l]*10,(1/sortedDistances[l])*255,0));
-   /* showElement("lpfp"+l);
-   setPosition("lpfp"+l,160,50+(l*40)); */
-   console.log(sortedDistances);
-   console.log(sortedUsernames);
-  }
-}
-function calculateCandidateDistances(){
-  for (var i = 0; i < 11; i++) {
-    candidateXCoord = canXCoords[i];
-    candidateYCoord = canYCoords[i];
-    candidateZCoord = canZCoords[i];
-    canDistance = Math.pow((Math.pow((xCoord-candidateXCoord),2)+Math.pow((yCoord-candidateYCoord),2) + Math.pow((zCoord-candidateZCoord),2)),0.5);
-    appendItem(canDistances,canDistance);
-  }
-  for (var k = 0; k < 11; k++) {
-    maxCanDistance = canDistances[0];
-    for (var j = 1; j < canDistances.length; j++) {
-      if(maxCanDistance < canDistances[j]){
-        maxCanDistance = canDistances[j];
-        maxCanIndex = j;
-      }
-    }
-    if(maxCanDistance == canDistances[0]){
-      maxCanIndex = 0;
-    }
-    console.log("maxCanIndex: " + maxCanIndex);
-    insertItem(sortedCanDistances,0,maxCanDistance);
-    insertItem(sortedCanNames,0,canNames[maxCanIndex]);
-    removeItem(canDistances,maxCanIndex);
-    removeItem(canNames,maxCanIndex);
-  }
-}
-function displayCandidateMatches(){
-  for (var l = 0; l < 10; l++) {
-   setText("percent" + l,Math.round(100-(2.88675134595*sortedCanDistances[l])) + "%");
-   setText("username" + l,sortedCanNames[l]);
-   setProperty("percent" + l,"text-color",rgb(sortedCanDistances[l]*10,(1/sortedCanDistances[l])*255,0));
-   /* showElement("lpfp"+l);
-   setPosition("lpfp"+l,160,50+(l*40)); */
-  }
-}
 function endTest(){
   calculatePlacement("x");
   calculatePlacement("y");
@@ -220,26 +116,6 @@ function nextQuestion(){
   showElement(currentSlider);
   console.log(currentQuest);
   showElement(currentQuest);
-}
-function hidePfps(){
-  for (var z = 0; z < zCoords.length; z++) {
-    hideElement("pfp"+z);
-  }
-}
-function showPfps(){
-  for (var q = 0; q < zCoords.length; q++) {
-    showElement("pfp"+q);
-  }
-}
-function hideCandidates(){
-  for (var y = 0; y < 12; y++){
-    hideElement("candidate" + y);
-  }
-}
-function showCandidates(){
-  for (var x = 0; x < 12; x++){
-    showElement("candidate" + x);
-  }
 }
 onEvent("button1","click",function(){
   setScreen("gameScreen");
@@ -583,77 +459,38 @@ onEvent("button2","click",function(){
 onEvent("button3", "click", function(){
   setScreen("creditsScreen");
 });
-onEvent("button4", "click", function(){
-  calculatePfpDistances();
-  setScreen("testResults2");
-  displayPfpMatches();
-  distance;
-  distances = [];
-  maxDistance;
-  maxIndex;
-  sortedDistances = [];
-  usernames = ["teen.politics.official","charlemagnes_corner","rightwingism","leftistbaby","progressive.politico","feldstein.philosophy","southern_leftist","tread.not","teen.politics.official","social.liberals","max_stirner_fanpage","makeliberalismclassicalagain","deafpatriot","angryamericans","libertylover2","refoundingfather","ancomcatz","broken.bones.and.civilizations","kiwimutualist","anpacball","individualist.libertarian","virginiaforbiden","right_wing_imperial","anarchistunity","texansocialdem","liberallibertarian","visionary.arabia","social.dem.official","palmetto_state_bluedog","sovereigntyism","lippie.liberty","massachusite","lib_confederalism"];
-  sortedUsernames = [];
-  pfpXCoord = 0;
-  pfpYCoord = 0;
-  pfpZCoord = 0;
-  count = 0;
-});
-onEvent("button7", "click", function(){
-  
-  calculateCandidateDistances();
-  setScreen("testResults2");
-  displayCandidateMatches();
-  sortedCanNames = [];
-  canNames = ["Amy Klobuchar","Tusli Gabbard","Mike Gravel","Joe Biden","Cory Brooker","Kamala Harris","Bernie Sanders","Andrew Yang","Pete Butigieg","Elizabeth Warren","Donald Trump"];
-  canDistances = [];
-  sortedCanDistances = [];
-  candidateXCoord = 0;
-  candidateYCoord = 0;
-  candidateZCoord = 0;
-  canDistance;
-  maxCanDistance;
-  maxCanIndex;
-  count = 1;
-});
-onEvent("button5", "click", function(){
-  setScreen("testResults");
-});
 onEvent("radio_button1","click",function(){
   showElement("symbols");
   hideElement("images");
   hideElement("labels");
-  hidePfps();
-  hideCandidates();
+  hideElement("politigrammers");
+  hideElement("2020");
 });
 onEvent("radio_button2","click",function(){
   showElement("images");
   hideElement("symbols");
   hideElement("labels");
-  hidePfps();
-  hideCandidates();
+  hideElement("politigrammers");
+  hideElement("2020");
 });
 onEvent("radio_button4","click",function(){
   hideElement("images");
   hideElement("symbols");
   showElement("labels");
-  hidePfps();
-  hideCandidates();
+  hideElement("politigrammers");
+  hideElement("2020");
 });
 onEvent("radio_button5","click",function(){
   hideElement("images");
   hideElement("symbols");
   hideElement("labels");
-  showPfps();
-  hideCandidates();
+  showElement("politigrammers");
+  hideElement("2020");
 });
 onEvent("radio_button3","click",function(){
   hideElement("images");
   hideElement("symbols");
   hideElement("labels");
-  hidePfps();
-  showCandidates();
-});
-onEvent("pfp30","click",function(){
-  open("https://www.instagram.com/lippie.liberty/");
+  hideElement("politigrammers");
+  showElement("2020");
 });
