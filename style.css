@@ -1498,12 +1498,6 @@
   width: 320px;
 }
 
-#divApplab.appModern #candidates {
-  height: 320px;
-  top: 40px;
-  width: 320px;
-}
-
 #divApplab.appModern #label1 {
   font-size: 12px;
   width: 56px;
@@ -2077,9 +2071,16 @@
   left: -1.11022e-16px;
 }
 
+#divApplab.appModern #image2 {
+  height: 320px;
+  width: 320px;
+  left: -1.11022e-16px;
+  top: 40px;
+}
+
 #divApplab.appModern #creditsScreen {
-  display: none;
   background-color: rgb(236, 236, 236);
+  display: none;
 }
 
 #divApplab.appModern #image3 {
