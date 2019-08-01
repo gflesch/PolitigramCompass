@@ -60,17 +60,12 @@ html[dir='rtl'] #visualizationColumn {
   left: 0px;
   overflow: visible; }
 
-#visualizationColumn.centered_embed {
-  margin: 0 auto; }
-
 #visualizationColumn.pin_bottom {
   position: absolute;
   bottom: 0px; }
   #visualizationColumn.pin_bottom #belowVisualization {
     position: absolute;
     overflow: auto; }
-  #visualizationColumn.pin_bottom.centered_embed {
-    position: relative; }
 
 div.droplet-palette-group-header {
   font-family: "Gotham 4r", sans-serif, sans-serif;
@@ -211,7 +206,7 @@ button.arrow:disabled {
   vertical-align: top;
   min-width: 204px; }
 
-/* Set z-index to zero here so that .droplet-dropdown (z-index 10000) appears in front of
+/* Set z-index to one here so that .droplet-dropdown (z-index 500) appears in front of
  * other droplet elements, but behind anything with z-index > 1 outside of #codeTextbox,
  * such as dialogs. */
 #codeTextbox {
@@ -221,10 +216,9 @@ button.arrow:disabled {
   top: 30px;
   bottom: 0px;
   font-size: 14px;
-  overflow: hidden;
   min-height: calc(50% - 16px) !important;
   direction: ltr;
-  z-index: 0; }
+  z-index: 1; }
 
 #codeTextbox.pin_bottom {
   border: 1px solid #ddd; }
@@ -254,9 +248,15 @@ html[dir='rtl'] .editor-column {
   z-index: 3; }
 
 .ace_gutter-cell.ace_breakpoint, .droplet-gutter-line.droplet_breakpoint {
-  border-radius: 15px 0px 0px 15px;
-  box-shadow: 0px 0px 0px 40px rgba(0, 0, 255, 0.5) inset;
+  background-image: url("assets/blockly/media/common_images/gutterPause.png");
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  border-radius: 15px 0 0 15px;
+  background-color: rgba(0, 0, 255, 0.5);
   color: white; }
+
+.droplet-gutter-line.droplet_breakpoint {
+  background-position: 4px 4px; }
 
 .ace_gutter-cell.ace_error, .droplet-gutter-line.droplet_error {
   background-image: url("assets/blockly/media/common_images/gutterError.png");
@@ -272,7 +272,10 @@ html[dir='rtl'] .editor-column {
   background-repeat: no-repeat; }
 
 .ace_gutter-cell.ace_error, .ace_gutter-cell.ace_warning {
-  background-position: 2px 0px; }
+  background-position: 2px 0; }
+
+.droplet-gutter-line.droplet_warning {
+  background-position: 2px 2px; }
 
 #visualizationResizeBar {
   position: absolute;
@@ -1415,6 +1418,7 @@ a.WireframeButtons_active, div.WireframeButtons_active {
   height: 43px;
   left: 0;
   right: 0;
+  z-index: 2;
   max-height: calc(50% - 16px) !important; }
 
 #codeTextbox.pin_bottom {
@@ -2006,9 +2010,6 @@ div#visualizationResizeBar {
 .chooseAssetDropdownOption {
   color: #0596CE;
   text-decoration: underline; }
-
-.droplet-dropdown {
-  z-index: 500 !important; }
 
 *[contenteditable] {
   -webkit-user-select: auto !important; }
