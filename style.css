@@ -1705,6 +1705,13 @@
   left: -1.66533e-16px;
 }
 
+#divApplab.appModern #pfp66 {
+  height: 25px;
+  width: 25px;
+  top: 290px;
+  left: 220px;
+}
+
 #divApplab.appModern #pfp10 {
   height: 25px;
   width: 25px;
@@ -1747,20 +1754,6 @@
   left: 283px;
 }
 
-#divApplab.appModern #pfp13 {
-  height: 25px;
-  width: 25px;
-  top: 315px;
-  left: 266px;
-}
-
-#divApplab.appModern #pfp14 {
-  height: 25px;
-  width: 25px;
-  top: 315px;
-  left: 279px;
-}
-
 #divApplab.appModern #pfp54 {
   height: 25px;
   width: 25px;
@@ -1768,17 +1761,10 @@
   left: 230px;
 }
 
-#divApplab.appModern #pfp12 {
-  height: 25px;
-  width: 25px;
-  top: 308px;
-  left: 253px;
-}
-
 #divApplab.appModern #pfp11 {
   height: 25px;
   width: 25px;
-  top: 305px;
+  top: 300px;
   left: 245px;
 }
 
@@ -1912,8 +1898,8 @@
 #divApplab.appModern #pfp53 {
   height: 25px;
   width: 25px;
-  top: 325px;
-  left: 235px;
+  top: 320px;
+  left: 250px;
 }
 
 #divApplab.appModern #button7 {
@@ -1984,7 +1970,7 @@
   height: 25px;
   width: 25px;
   top: 335px;
-  left: 260px;
+  left: 265px;
 }
 
 #divApplab.appModern #pfp41 {
@@ -2089,6 +2075,55 @@
   height: 25px;
   width: 25px;
   top: 280px;
+  left: 5px;
+}
+
+#divApplab.appModern #pfp67 {
+  height: 25px;
+  width: 25px;
+  top: 190px;
+  left: 240px;
+}
+
+#divApplab.appModern #pfp68 {
+  height: 25px;
+  width: 25px;
+  top: 335px;
+  left: 230px;
+}
+
+#divApplab.appModern #pfp13 {
+  height: 25px;
+  width: 25px;
+  top: 315px;
+  left: 266px;
+}
+
+#divApplab.appModern #pfp14 {
+  height: 25px;
+  width: 25px;
+  top: 315px;
+  left: 285px;
+}
+
+#divApplab.appModern #pfp69 {
+  height: 25px;
+  width: 25px;
+  top: 335px;
+  left: 250px;
+}
+
+#divApplab.appModern #pfp12 {
+  height: 25px;
+  width: 25px;
+  top: 300px;
+  left: 260px;
+}
+
+#divApplab.appModern #pfp70 {
+  height: 25px;
+  width: 25px;
+  top: 235px;
   left: 5px;
 }
 
