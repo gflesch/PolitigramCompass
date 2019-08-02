@@ -1,9 +1,4 @@
 setScreen("welcomeScreen");
-for(var n = 34; n < 74; n++){
-  var username = getProperty("pfp" + n,"image");
-  console.log(n + " " + username.substring(0,username.length-4));
-}
-
 var num = 0;
 var ans1 = 0;
 var ans2 = 0;
