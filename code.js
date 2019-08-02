@@ -98,7 +98,7 @@ var zCoords = [-9,9.5,9,-10,-8,0.25,-3.63,4.5,-8,-8,-10,4,-4.63,-6,4,5.5,-10,-10
 var canXCoords = [1.8,-0.6,-4,2,2,1.3,0.9,-2.2,-0.1,0.8,-1.1,3.4];
 var canYCoords = [1.1,-0.5,-2.6,3.5,2.2,2.7,-0.3,0.7,1.5,1,3.7];
 var canZCoords = [-1.5,-4,-8,0.25,-3,-3,-7.6,-2,-3,-6.9,7];
-var canNames = ["Amy Klobuchar","Tusli Gabbard","Mike Gravel","Joe Biden","Cory Brooker","Kamala Harris","Bernie Sanders","Andrew Yang","Pete Butigieg","Elizabeth Warren","Donald Trump"];                            
+var canNames = ["Amy Klobuchar","Tulsi Gabbard","Mike Gravel","Joe Biden","Cory Brooker","Kamala Harris","Bernie Sanders","Andrew Yang","Pete Butigieg","Elizabeth Warren","Donald Trump"];                            
 var sortedCanNames = [];
 var canDistances = [];
 var sortedCanDistances = [];
@@ -602,7 +602,7 @@ onEvent("button7", "click", function(){
   setScreen("testResults2");
   displayCandidateMatches();
   sortedCanNames = [];
-  canNames = ["Amy Klobuchar","Tusli Gabbard","Mike Gravel","Joe Biden","Cory Brooker","Kamala Harris","Bernie Sanders","Andrew Yang","Pete Butigieg","Elizabeth Warren","Donald Trump"];
+  canNames = ["Amy Klobuchar","Tulsi Gabbard","Mike Gravel","Joe Biden","Cory Brooker","Kamala Harris","Bernie Sanders","Andrew Yang","Pete Butigieg","Elizabeth Warren","Donald Trump"];
   canDistances = [];
   sortedCanDistances = [];
   candidateXCoord = 0;
