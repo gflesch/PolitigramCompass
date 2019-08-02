@@ -1549,8 +1549,8 @@
   width: 50px;
   font-size: 9px;
   background-color: rgb(234, 0, 0);
-  left: 265px;
-  top: 5px;
+  left: 270px;
+  top: -8.32667e-17px;
 }
 
 #divApplab.appModern #dot {
@@ -2139,6 +2139,14 @@
   width: 25px;
   top: 125px;
   left: 55px;
+}
+
+#divApplab.appModern #text_area67 {
+  width: 320px;
+  background-color: rgb(236, 236, 236);
+  font-size: 12px;
+  top: 20px;
+  height: 20px;
 }
 
 #divApplab.appModern #creditsScreen {

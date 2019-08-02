@@ -1,4 +1,9 @@
 setScreen("welcomeScreen");
+for(var n = 0; n < 73; n++){
+  var username = getProperty("pfp" + n,"image");
+  console.log(n + " " + username.substring(0,username.length-4));
+}
+
 var num = 0;
 var ans1 = 0;
 var ans2 = 0;
@@ -699,3 +704,230 @@ onEvent("username9","click",function(){
     open("https://www.instagram.com/" + sortedUsernames[9] + "/");
   }
 });
+onEvent("pfp0","mouseover",function(){
+  setText("text_area67",usernames[0] + "'s results: (" + xCoords[0] + "," + yCoords[0] + "," + zCoords[0] + ")");
+});
+onEvent("pfp1","mouseover",function(){
+  setText("text_area67",usernames[1] + "'s results: (" + xCoords[1] + "," + yCoords[1] + "," + zCoords[1] + ")");
+});
+onEvent("pfp2","mouseover",function(){
+  setText("text_area67",usernames[2] + "'s results: (" + xCoords[2] + "," + yCoords[2] + "," + zCoords[2] + ")");
+});
+onEvent("pfp3","mouseover",function(){
+  setText("text_area67",usernames[3] + "'s results: (" + xCoords[3] + "," + yCoords[3] + "," + zCoords[3] + ")");
+});
+onEvent("pfp4","mouseover",function(){
+  setText("text_area67",usernames[4] + "'s results: (" + xCoords[4] + "," + yCoords[4] + "," + zCoords[4] + ")");
+});
+onEvent("pfp5","mouseover",function(){
+  setText("text_area67",usernames[5] + "'s results: (" + xCoords[5] + "," + yCoords[5] + "," + zCoords[5] + ")");
+});
+onEvent("pfp6","mouseover",function(){
+  setText("text_area67",usernames[6] + "'s results: (" + xCoords[6] + "," + yCoords[6] + "," + zCoords[6] + ")");
+});
+onEvent("pfp7","mouseover",function(){
+  setText("text_area67",usernames[7] + "'s results: (" + xCoords[7] + "," + yCoords[7] + "," + zCoords[7] + ")");
+});
+onEvent("pfp8","mouseover",function(){
+  setText("text_area67",usernames[8] + "'s results: (" + xCoords[8] + "," + yCoords[8] + "," + zCoords[8] + ")");
+});
+onEvent("pfp9","mouseover",function(){
+  setText("text_area67",usernames[9] + "'s results: (" + xCoords[9] + "," + yCoords[9] + "," + zCoords[9] + ")");
+});
+onEvent("pfp10","mouseover",function(){
+  setText("text_area67",usernames[10] + "'s results: (" + xCoords[10] + "," + yCoords[10] + "," + zCoords[10] + ")");
+});
+onEvent("pfp11","mouseover",function(){
+  setText("text_area67",usernames[11] + "'s results: (" + xCoords[11] + "," + yCoords[11] + "," + zCoords[11] + ")");
+});
+onEvent("pfp12","mouseover",function(){
+  setText("text_area67",usernames[12] + "'s results: (" + xCoords[12] + "," + yCoords[12] + "," + zCoords[12] + ")");
+});
+onEvent("pfp13","mouseover",function(){
+  setText("text_area67",usernames[13] + "'s results: (" + xCoords[13] + "," + yCoords[13] + "," + zCoords[13] + ")");
+});
+onEvent("pfp14","mouseover",function(){
+  setText("text_area67",usernames[14] + "'s results: (" + xCoords[14] + "," + yCoords[14] + "," + zCoords[14] + ")");
+});
+onEvent("pfp15","mouseover",function(){
+  setText("text_area67",usernames[15] + "'s results: (" + xCoords[15] + "," + yCoords[15] + "," + zCoords[15] + ")");
+});
+onEvent("pfp16","mouseover",function(){
+  setText("text_area67",usernames[16] + "'s results: (" + xCoords[16] + "," + yCoords[16] + "," + zCoords[16] + ")");
+});
+onEvent("pfp17","mouseover",function(){
+  setText("text_area67",usernames[17] + "'s results: (" + xCoords[17] + "," + yCoords[17] + "," + zCoords[17] + ")");
+});
+onEvent("pfp18","mouseover",function(){
+  setText("text_area67",usernames[18] + "'s results: (" + xCoords[18] + "," + yCoords[18] + "," + zCoords[18] + ")");
+});
+onEvent("pfp19","mouseover",function(){
+  setText("text_area67",usernames[19] + "'s results: (" + xCoords[19] + "," + yCoords[19] + "," + zCoords[19] + ")");
+});
+onEvent("pfp20","mouseover",function(){
+  setText("text_area67",usernames[20] + "'s results: (" + xCoords[20] + "," + yCoords[20] + "," + zCoords[20] + ")");
+});
+onEvent("pfp21","mouseover",function(){
+  setText("text_area67",usernames[21] + "'s results: (" + xCoords[21] + "," + yCoords[21] + "," + zCoords[21] + ")");
+});
+onEvent("pfp22","mouseover",function(){
+  setText("text_area67",usernames[22] + "'s results: (" + xCoords[22] + "," + yCoords[22] + "," + zCoords[22] + ")");
+});
+onEvent("pfp23","mouseover",function(){
+  setText("text_area67",usernames[23] + "'s results: (" + xCoords[23] + "," + yCoords[23] + "," + zCoords[23] + ")");
+});
+
+onEvent("pfp24","mouseover",function(){
+  setText("text_area67",usernames[24] + "'s results: (" + xCoords[24] + "," + yCoords[24] + "," + zCoords[24] + ")");
+});
+onEvent("pfp25","mouseover",function(){
+  setText("text_area67",usernames[25] + "'s results: (" + xCoords[25] + "," + yCoords[25] + "," + zCoords[25] + ")");
+});
+onEvent("pfp26","mouseover",function(){
+  setText("text_area67",usernames[26] + "'s results: (" + xCoords[26] + "," + yCoords[26] + "," + zCoords[26] + ")");
+});
+onEvent("pfp27","mouseover",function(){
+  setText("text_area67",usernames[27] + "'s results: (" + xCoords[27] + "," + yCoords[27] + "," + zCoords[27] + ")");
+});
+onEvent("pfp28","mouseover",function(){
+  setText("text_area67",usernames[28] + "'s results: (" + xCoords[28] + "," + yCoords[28] + "," + zCoords[28] + ")");
+});
+onEvent("pfp29","mouseover",function(){
+  setText("text_area67",usernames[29] + "'s results: (" + xCoords[29] + "," + yCoords[29] + "," + zCoords[29] + ")");
+});
+onEvent("pfp30","mouseover",function(){
+  setText("text_area67",usernames[30] + "'s results: (" + xCoords[30] + "," + yCoords[30] + "," + zCoords[30] + ")");
+});
+onEvent("pfp31","mouseover",function(){
+  setText("text_area67",usernames[31] + "'s results: (" + xCoords[31] + "," + yCoords[31] + "," + zCoords[31] + ")");
+});
+onEvent("pfp32","mouseover",function(){
+  setText("text_area67",usernames[32] + "'s results: (" + xCoords[32] + "," + yCoords[32] + "," + zCoords[32] + ")");
+});
+onEvent("pfp33","mouseover",function(){
+  setText("text_area67",usernames[33] + "'s results: (" + xCoords[33] + "," + yCoords[33] + "," + zCoords[31] + ")");
+});
+onEvent("pfp34","mouseover",function(){
+  setText("text_area67",usernames[34] + "'s results: (" + xCoords[34] + "," + yCoords[34] + "," + zCoords[34] + ")");
+});
+onEvent("pfp35","mouseover",function(){
+  setText("text_area67",usernames[35] + "'s results: (" + xCoords[35] + "," + yCoords[35] + "," + zCoords[35] + ")");
+});
+onEvent("pfp36","mouseover",function(){
+  setText("text_area67",usernames[36] + "'s results: (" + xCoords[36] + "," + yCoords[36] + "," + zCoords[36] + ")");
+});
+onEvent("pfp37","mouseover",function(){
+  setText("text_area67",usernames[37] + "'s results: (" + xCoords[37] + "," + yCoords[37] + "," + zCoords[37] + ")");
+});
+onEvent("pfp38","mouseover",function(){
+  setText("text_area67",usernames[38] + "'s results: (" + xCoords[38] + "," + yCoords[38] + "," + zCoords[38] + ")");
+});
+onEvent("pfp39","mouseover",function(){
+  setText("text_area67",usernames[39] + "'s results: (" + xCoords[39] + "," + yCoords[39] + "," + zCoords[39] + ")");
+});
+onEvent("pfp40","mouseover",function(){
+  setText("text_area67",usernames[40] + "'s results: (" + xCoords[40] + "," + yCoords[40] + "," + zCoords[40] + ")");
+});
+onEvent("pfp41","mouseover",function(){
+  setText("text_area67",usernames[41] + "'s results: (" + xCoords[41] + "," + yCoords[41] + "," + zCoords[41] + ")");
+});
+onEvent("pfp42","mouseover",function(){
+  setText("text_area67",usernames[42] + "'s results: (" + xCoords[42] + "," + yCoords[42] + "," + zCoords[42] + ")");
+});
+onEvent("pfp43","mouseover",function(){
+  setText("text_area67",usernames[43] + "'s results: (" + xCoords[43] + "," + yCoords[43] + "," + zCoords[43] + ")");
+});
+onEvent("pfp44","mouseover",function(){
+  setText("text_area67",usernames[44] + "'s results: (" + xCoords[44] + "," + yCoords[44] + "," + zCoords[44] + ")");
+});
+onEvent("pfp45","mouseover",function(){
+  setText("text_area67",usernames[45] + "'s results: (" + xCoords[45] + "," + yCoords[45] + "," + zCoords[45] + ")");
+});
+onEvent("pfp46","mouseover",function(){
+  setText("text_area67",usernames[46] + "'s results: (" + xCoords[46] + "," + yCoords[46] + "," + zCoords[46] + ")");
+});
+onEvent("pfp47","mouseover",function(){
+  setText("text_area67",usernames[47] + "'s results: (" + xCoords[47] + "," + yCoords[47] + "," + zCoords[47] + ")");
+});
+onEvent("pfp48","mouseover",function(){
+  setText("text_area67",usernames[48] + "'s results: (" + xCoords[48] + "," + yCoords[48] + "," + zCoords[48] + ")");
+});
+onEvent("pfp49","mouseover",function(){
+  setText("text_area67",usernames[49] + "'s results: (" + xCoords[49] + "," + yCoords[49] + "," + zCoords[49] + ")");
+});
+onEvent("pfp50","mouseover",function(){
+  setText("text_area67",usernames[50] + "'s results: (" + xCoords[50] + "," + yCoords[50] + "," + zCoords[50] + ")");
+});
+onEvent("pfp51","mouseover",function(){
+  setText("text_area67",usernames[51] + "'s results: (" + xCoords[51] + "," + yCoords[51] + "," + zCoords[51] + ")");
+});
+onEvent("pfp52","mouseover",function(){
+  setText("text_area67",usernames[52] + "'s results: (" + xCoords[52] + "," + yCoords[52] + "," + zCoords[52] + ")");
+});
+onEvent("pfp53","mouseover",function(){
+  setText("text_area67",usernames[53] + "'s results: (" + xCoords[53] + "," + yCoords[53] + "," + zCoords[53] + ")");
+});
+
+onEvent("pfp54","mouseover",function(){
+  setText("text_area67",usernames[54] + "'s results: (" + xCoords[54] + "," + yCoords[54] + "," + zCoords[54] + ")");
+});
+onEvent("pfp55","mouseover",function(){
+  setText("text_area67",usernames[55] + "'s results: (" + xCoords[55] + "," + yCoords[55] + "," + zCoords[55] + ")");
+});
+onEvent("pfp56","mouseover",function(){
+  setText("text_area67",usernames[56] + "'s results: (" + xCoords[56] + "," + yCoords[56] + "," + zCoords[56] + ")");
+});
+onEvent("pfp57","mouseover",function(){
+  setText("text_area67",usernames[57] + "'s results: (" + xCoords[57] + "," + yCoords[57] + "," + zCoords[57] + ")");
+});
+onEvent("pfp58","mouseover",function(){
+  setText("text_area67",usernames[58] + "'s results: (" + xCoords[58] + "," + yCoords[58] + "," + zCoords[58] + ")");
+});
+onEvent("pfp59","mouseover",function(){
+  setText("text_area67",usernames[59] + "'s results: (" + xCoords[59] + "," + yCoords[59] + "," + zCoords[59] + ")");
+});
+onEvent("pfp60","mouseover",function(){
+  setText("text_area67",usernames[60] + "'s results: (" + xCoords[60] + "," + yCoords[60] + "," + zCoords[60] + ")");
+});
+onEvent("pfp61","mouseover",function(){
+  setText("text_area67",usernames[61] + "'s results: (" + xCoords[61] + "," + yCoords[61] + "," + zCoords[61] + ")");
+});
+onEvent("pfp62","mouseover",function(){
+  setText("text_area67",usernames[62] + "'s results: (" + xCoords[62] + "," + yCoords[62] + "," + zCoords[62] + ")");
+});
+onEvent("pfp63","mouseover",function(){
+  setText("text_area67",usernames[63] + "'s results: (" + xCoords[63] + "," + yCoords[63] + "," + zCoords[63] + ")");
+});
+
+onEvent("pfp64","mouseover",function(){
+  setText("text_area67",usernames[64] + "'s results: (" + xCoords[64] + "," + yCoords[64] + "," + zCoords[64] + ")");
+});
+onEvent("pfp65","mouseover",function(){
+  setText("text_area67",usernames[65] + "'s results: (" + xCoords[65] + "," + yCoords[65] + "," + zCoords[65] + ")");
+});
+onEvent("pfp66","mouseover",function(){
+  setText("text_area67",usernames[66] + "'s results: (" + xCoords[66] + "," + yCoords[66] + "," + zCoords[66] + ")");
+});
+onEvent("pfp67","mouseover",function(){
+  setText("text_area67",usernames[67] + "'s results: (" + xCoords[67] + "," + yCoords[67] + "," + zCoords[67] + ")");
+});
+onEvent("pfp68","mouseover",function(){
+  setText("text_area67",usernames[68] + "'s results: (" + xCoords[68] + "," + yCoords[68] + "," + zCoords[68] + ")");
+});
+onEvent("pfp69","mouseover",function(){
+  setText("text_area67",usernames[69] + "'s results: (" + xCoords[69] + "," + yCoords[69] + "," + zCoords[69] + ")");
+});
+onEvent("pfp70","mouseover",function(){
+  setText("text_area67",usernames[70] + "'s results: (" + xCoords[70] + "," + yCoords[70] + "," + zCoords[70] + ")");
+});
+onEvent("pfp71","mouseover",function(){
+  setText("text_area67",usernames[71] + "'s results: (" + xCoords[71] + "," + yCoords[71] + "," + zCoords[71] + ")");
+});
+onEvent("pfp72","mouseover",function(){
+  setText("text_area67",usernames[72] + "'s results: (" + xCoords[72] + "," + yCoords[72] + "," + zCoords[72] + ")");
+});
+onEvent("pfp73","mouseover",function(){
+  setText("text_area67",usernames[73] + "'s results: (" + xCoords[73] + "," + yCoords[73] + "," + zCoords[73] + ")");
+});
+
+
