@@ -1775,13 +1775,6 @@
   left: 100px;
 }
 
-#divApplab.appModern #pfp6 {
-  height: 25px;
-  width: 25px;
-  top: 210px;
-  left: 80px;
-}
-
 #divApplab.appModern #pfp7 {
   height: 25px;
   width: 25px;
@@ -1801,7 +1794,7 @@
   height: 25px;
   width: 25px;
   top: 210px;
-  left: 95px;
+  left: 105px;
 }
 
 #divApplab.appModern #pfp21 {
@@ -1825,13 +1818,6 @@
   left: 210px;
 }
 
-#divApplab.appModern #pfp24 {
-  height: 25px;
-  width: 25px;
-  top: 210px;
-  left: 120px;
-}
-
 #divApplab.appModern #pfp26 {
   height: 25px;
   width: 25px;
@@ -1842,8 +1828,8 @@
 #divApplab.appModern #pfp46 {
   height: 25px;
   width: 25px;
-  top: 215px;
-  left: 105px;
+  top: 205px;
+  left: 95px;
 }
 
 #divApplab.appModern #pfp27 {
@@ -1948,7 +1934,7 @@
 #divApplab.appModern #pfp37 {
   height: 25px;
   width: 25px;
-  top: 150px;
+  top: 145px;
   left: 180px;
 }
 
@@ -2147,6 +2133,20 @@
   font-size: 12px;
   top: 20px;
   height: 20px;
+}
+
+#divApplab.appModern #pfp24 {
+  height: 25px;
+  width: 25px;
+  top: 222px;
+  left: 85px;
+}
+
+#divApplab.appModern #pfp6 {
+  height: 25px;
+  width: 25px;
+  top: 210px;
+  left: 80px;
 }
 
 #divApplab.appModern #creditsScreen {
