@@ -227,18 +227,20 @@ function nextQuestion(){
   showElement(currentQuest);
 }
 function previousQuestion(){
+  if(num > 1){
   num = num - 1;
   var num2 = num + 1;
   var previousSlider = "slider" + num2;
   var previousQuest = "text_area" + num2;
   var currentSlider = "slider" + num;
   var currentQuest = "text_area" + num;
-  hideElement(previousSlider);
-  hideElement(previousQuest);
-  console.log(currentSlider);
-  showElement(currentSlider);
-  console.log(currentQuest);
-  showElement(currentQuest);
+    hideElement(previousSlider);
+    hideElement(previousQuest);
+    console.log(currentSlider);
+    showElement(currentSlider);
+    console.log(currentQuest);
+    showElement(currentQuest);
+  }
 }
 function hidePfps(){
   for (var z = 0; z < zCoords.length; z++) {
