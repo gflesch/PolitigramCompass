@@ -226,6 +226,20 @@ function nextQuestion(){
   console.log(currentQuest);
   showElement(currentQuest);
 }
+function previousQuestion(){
+  num = num - 1;
+  var num2 = num + 1;
+  var previousSlider = "slider" + num2;
+  var previousQuest = "text_area" + num2;
+  var currentSlider = "slider" + num;
+  var currentQuest = "text_area" + num;
+  hideElement(previousSlider);
+  hideElement(previousQuest);
+  console.log(currentSlider);
+  showElement(currentSlider);
+  console.log(currentQuest);
+  showElement(currentQuest);
+}
 function hidePfps(){
   for (var z = 0; z < zCoords.length; z++) {
     hideElement("pfp"+z);
@@ -240,6 +254,7 @@ function showPfps(){
 onEvent("button1","click",function(){
   setScreen("gameScreen");
   setStyle("numline", "z-index: -10");
+  showElement("button6");
   hide();
   penUp();
   moveTo(0,-3);
@@ -248,328 +263,387 @@ onEvent("button1","click",function(){
   penColor("white");
   turnRight();
   nextQuestion();
+
 });
 onEvent("slider1","change",function(){
   moveForward(5);
   ans1 = getNumber("slider1");
   nextQuestion();
+
+  
 });
 onEvent("slider2","change",function(){
   moveForward(5);
   ans2 = getNumber("slider2");
   nextQuestion();
+  
 });
 onEvent("slider3","change",function(){
   moveForward(5);
   ans3 = getNumber("slider3");
   nextQuestion();
+  
 });
 onEvent("slider4","change",function(){
   moveForward(5);
   ans4 = getNumber("slider4");
   nextQuestion();
-});
+  });
 onEvent("slider5","change",function(){
   moveForward(5);
   ans5 = getNumber("slider5");
   nextQuestion();
-});
+  });
 onEvent("slider6","change",function(){
   moveForward(5);
   ans6 = getNumber("slider6");
   nextQuestion();
-});
+  });
 onEvent("slider7","change",function(){
   moveForward(5);
   ans7 = getNumber("slider7");
   nextQuestion();
-});
+  });
 onEvent("slider8","change",function(){
   moveForward(5);
   ans8 = getNumber("slider8");
   nextQuestion();
-});
+  });
 onEvent("slider9","change",function(){
   moveForward(5);
   ans9 = getNumber("slider9");
   nextQuestion();
+  
 });
 onEvent("slider10","change",function(){
   moveForward(5);
   ans10 = getNumber("slider10");
   nextQuestion();
+  
 });
 onEvent("slider11","change",function(){
   moveForward(5);
   ans11 = getNumber("slider11");
   nextQuestion();
+  
 });
 onEvent("slider12","change",function(){
   moveForward(5);
   ans12 = getNumber("slider12");
   nextQuestion();
+  
 });
 onEvent("slider13","change",function(){
   moveForward(5);
   ans13 = getNumber("slider13");
   nextQuestion();
+  
 });
 onEvent("slider14","change",function(){
   moveForward(5);
   ans14 = getNumber("slider14");
   nextQuestion();
+  
 });
 onEvent("slider15","change",function(){
   moveForward(5);
   ans15 = getNumber("slider15");
   nextQuestion();
-});
+  });
 onEvent("slider16","change",function(){
   moveForward(5);
   ans16 = getNumber("slider16");
   nextQuestion();
+  
 });
 onEvent("slider17","change",function(){
   moveForward(5);
   ans17 = getNumber("slider17");
   nextQuestion();
+  
 });
 onEvent("slider18","change",function(){
   moveForward(5);
   ans18 = getNumber("slider18");
   nextQuestion();
+  
 });
 onEvent("slider19","change",function(){
   moveForward(5);
   ans19 = getNumber("slider19");
   nextQuestion();
+  
 });
 onEvent("slider20","change",function(){
   moveForward(5);
   ans20 = getNumber("slider20");
   nextQuestion();
+  
 });
 onEvent("slider21","change",function(){
   moveForward(5);
   ans21 = getNumber("slider21");
   nextQuestion();
+  
 });
 onEvent("slider22","change",function(){
   moveForward(5);
   ans22 = getNumber("slider22");
   nextQuestion();
+  
 });
 onEvent("slider23","change",function(){
   moveForward(5);
   ans23 = getNumber("slider23");
   nextQuestion();
+  
 });
 onEvent("slider24","change",function(){
   moveForward(5);
   ans24 = getNumber("slider24");
   nextQuestion();
+  
 });
 onEvent("slider25","change",function(){
   moveForward(5);
   ans25 = getNumber("slider25");
   nextQuestion();
+  
 });
 onEvent("slider26","change",function(){
   moveForward(5);
   ans26 = getNumber("slider26");
   nextQuestion();
+  
 });
 onEvent("slider27","change",function(){
   moveForward(5);
   ans27 = getNumber("slider27");
   nextQuestion();
+  
 });
 onEvent("slider28","change",function(){
   moveForward(5);
   ans28 = getNumber("slider28");
   nextQuestion();
+  
 });
 onEvent("slider29","change",function(){
   moveForward(5);
   ans29 = getNumber("slider29");
   nextQuestion();
+  
 });
 onEvent("slider30","change",function(){
   moveForward(5);
   ans30 = getNumber("slider30");
   nextQuestion();
+  
 });
 onEvent("slider31","change",function(){
   moveForward(5);
   ans31 = getNumber("slider31");
   nextQuestion();
+  
 });
 onEvent("slider32","change",function(){
   moveForward(5);
   ans32 = getNumber("slider32");
   nextQuestion();
+  
 });
 onEvent("slider33","change",function(){
   moveForward(5);
   ans33 = getNumber("slider33");
   nextQuestion();
+  
 });
 onEvent("slider34","change",function(){
   moveForward(5);
   ans34 = getNumber("slider34");
   nextQuestion();
+  
 });
 onEvent("slider35","change",function(){
   moveForward(5);
   ans35 = getNumber("slider35");
   nextQuestion();
+  
 });
 onEvent("slider36","change",function(){
   moveForward(5);
   ans36 = getNumber("slider36");
   nextQuestion();
+  
 });
 onEvent("slider37","change",function(){
   moveForward(5);
   ans37 = getNumber("slider37");
   nextQuestion();
+  
 });
 onEvent("slider38","change",function(){
   moveForward(5);
   ans38 = getNumber("slider38");
   nextQuestion();
+  
 });
 onEvent("slider39","change",function(){
   moveForward(5);
   ans39 = getNumber("slider39");
   nextQuestion();
+  
 });
 onEvent("slider40","change",function(){
   moveForward(5);
   ans40 = getNumber("slider40");
   nextQuestion();
+  
 });
 onEvent("slider41","change",function(){
   moveForward(5);
   ans41 = getNumber("slider41");
   nextQuestion();
+  
 });
 onEvent("slider42","change",function(){
   moveForward(5);
   ans42 = getNumber("slider42");
   nextQuestion();
+  
 });
 onEvent("slider43","change",function(){
   moveForward(5);
   ans43 = getNumber("slider43");
   nextQuestion();
+  
 });
 onEvent("slider44","change",function(){
   moveForward(5);
   ans44 = getNumber("slider44");
   nextQuestion();
+  
 });
 onEvent("slider45","change",function(){
   moveForward(5);
   ans45 = getNumber("slider45");
   nextQuestion();
+  
 });
 onEvent("slider46","change",function(){
   moveForward(5);
   ans46 = getNumber("slider46");
   nextQuestion();
+  
 });
 onEvent("slider47","change",function(){
   moveForward(5);
   ans47 = getNumber("slider47");
   nextQuestion();
+  
 });
 onEvent("slider48","change",function(){
   moveForward(5);
   ans48 = getNumber("slider48");
   nextQuestion();
+  
 });
 onEvent("slider49","change",function(){
   moveForward(5);
   ans49 = getNumber("slider49");
   nextQuestion();
+  
 });
 onEvent("slider50","change",function(){
   moveForward(5);
   ans50 = getNumber("slider50");
   nextQuestion();
+  
 });
 onEvent("slider51","change",function(){
   moveForward(5);
   ans51 = getNumber("slider51");
   nextQuestion();
+  
 });
 onEvent("slider52","change",function(){
   moveForward(5);
   ans52 = getNumber("slider52");
   nextQuestion();
+  
 });
 onEvent("slider53","change",function(){
   moveForward(5);
   ans53 = getNumber("slider53");
   nextQuestion();
+  
 });
 onEvent("slider54","change",function(){
   moveForward(5);
   ans54 = getNumber("slider54");
   nextQuestion();
+  
 });
 onEvent("slider55","change",function(){
   moveForward(5);
   ans55 = getNumber("slider55");
   nextQuestion();
+  
 });
 onEvent("slider56","change",function(){
   moveForward(5);
   ans56 = getNumber("slider56");
   nextQuestion();
+  
 });
 onEvent("slider57","change",function(){
   moveForward(5);
   ans57 = getNumber("slider57");
   nextQuestion();
+  
 });
 onEvent("slider58","change",function(){
   moveForward(5);
   ans58 = getNumber("slider58");
   nextQuestion();
+  
 });
 onEvent("slider59","change",function(){
   moveForward(5);
   ans59 = getNumber("slider59");
   nextQuestion();
+  
 });
 onEvent("slider60","change",function(){
   moveForward(5);
   ans60 = getNumber("slider60");
   nextQuestion();
+  
 });
 onEvent("slider61","change",function(){
   moveForward(5);
   ans61 = getNumber("slider61");
   nextQuestion();
+  
 });
 onEvent("slider62","change",function(){
   moveForward(5);
   ans62 = getNumber("slider62");
   nextQuestion();
+  
 });
 onEvent("slider63","change",function(){
   moveForward(5);
   ans63 = getNumber("slider63");
   nextQuestion();
+  
 });
 onEvent("slider64","change",function(){
   moveForward(5);
   ans64 = getNumber("slider64");
   showElement("button2");
   hideElement("slider64");
-});
+  });
 onEvent("button2","click",function(){
   hidePfps();
   setScreen("testResults");
@@ -923,4 +997,8 @@ onEvent("pfp71","mouseover",function(){
 });
 onEvent("pfp72","mouseover",function(){
   setText("text_area67",usernames[72] + "'s results: (" + xCoords[72] + "," + yCoords[72] + "," + zCoords[72] + ")");
+});
+onEvent("button6","click",function(){
+  previousQuestion();
+  moveBackward(5);
 });

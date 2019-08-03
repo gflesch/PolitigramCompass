@@ -1822,6 +1822,14 @@ div#visualizationResizeBar {
     -ms-transform: scale(0.625);
     transform: scale(0.625); } }
 
+.widgetWidth {
+  width: 600px !important;
+  max-width: 600px !important; }
+
+.widgetHeight {
+  height: 450px !important;
+  max-height: 450px !important; }
+
 #visualizationColumn.wireframeShare {
   max-width: none !important;
   width: 352px;
