@@ -261,14 +261,14 @@ function preview(){
     showElement("button13");
     for (var r = 1; r < 13; r++) {
       setFillColor(rgb((getNumber("zInput" + r)*12.75) + 191.25,(getNumber("zInput" + r)*12.75) + 191.25,(getNumber("zInput" + r)*6.38) + 85));
-      circle((getNumber("xInput" + r)*16)+160,(getNumber("yInput" + r)*16)+225,5);
+      circle((getNumber("xInput" + r)*16)+160,(getNumber("yInput" + r)*-16)+225,5);
       var name = getText("nameInput" + r);
       if(((getNumber("xInput" + r)*16)+138) < 0){
         setPosition("name"+r,0,(getNumber("yInput" + r)*16)+203);
       } else if(((getNumber("xInput" + r)*16)+138) + (name.length*7.5) > 320){
-      setPosition("name"+r,((getNumber("xInput" + r)*16)+138)-(((getNumber("xInput" + r)*16)+138) + (name.length*7.5) - 320),(getNumber("yInput" + r)*16)+203);
+      setPosition("name"+r,((getNumber("xInput" + r)*16)+138)-(((getNumber("xInput" + r)*16)+138) + (name.length*7.5) - 320),(getNumber("yInput" + r)*-16)+203);
       } else {
-      setPosition("name"+r,(getNumber("xInput" + r)*16)+138,(getNumber("yInput" + r)*16)+203);
+      setPosition("name"+r,(getNumber("xInput" + r)*16)+138,(getNumber("yInput" + r)*-16)+203);
       }
       setText("name"+r,getText("nameInput"+r));
     }
@@ -1206,4 +1206,7 @@ onEvent("button12","click",function(){
 onEvent("button13","click",function(){
   clearCanvas();
   setScreen("buildScreen");
+});
+onEvent("paypal","click",function(){
+  open("https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=lippie.liberty@gmail.com&lc=US&no_note=0&item_name=Help+me+continue+to+make+the+Politigram+Compass+the+only+political+test+specific+to+Politigram+(and+buy+my+college+textbooks)!&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted");
 });
