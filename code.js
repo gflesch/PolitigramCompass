@@ -1210,3 +1210,7 @@ onEvent("button13","click",function(){
 onEvent("paypal","click",function(){
   open("https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=lippie.liberty@gmail.com&lc=US&no_note=0&item_name=Help+me+continue+to+make+the+Politigram+Compass+the+only+political+test+specific+to+Politigram+(and+buy+my+college+textbooks)!&cn=&curency_code=USD&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted");
 });
+onEvent("button9","click",function(){
+  clearCanvas();
+  setScreen("welcomeScreen");
+});
