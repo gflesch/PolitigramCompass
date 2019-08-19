@@ -260,7 +260,7 @@ function checkViability(){
 function preview(){
     showElement("button13");
     for (var r = 1; r < 13; r++) {
-      setFillColor(rgb((getNumber("zInput" + r)*12.75) + 191.25,(getNumber("zInput" + r)*12.75) + 191.25,(getNumber("zInput" + r)*6.38) + 85));
+      setFillColor(rgb(127.5-(getNumber("zInput" + r)*6.375),127.5-(getNumber("zInput" + r)*6.375),63.75-(getNumber("zInput" + r)*6.375)));
       circle((getNumber("xInput" + r)*16)+160,(getNumber("yInput" + r)*-16)+225,5);
       var name = getText("nameInput" + r);
       if(((getNumber("xInput" + r)*16)+138) < 0){
