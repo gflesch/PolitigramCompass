@@ -264,7 +264,7 @@ function preview(){
       circle((getNumber("xInput" + r)*16)+160,(getNumber("yInput" + r)*-16)+225,5);
       var name = getText("nameInput" + r);
       if(((getNumber("xInput" + r)*16)+138) < 0){
-        setPosition("name"+r,0,(getNumber("yInput" + r)*16)+203);
+        setPosition("name"+r,0,(getNumber("yInput" + r)*-16)+203);
       } else if(((getNumber("xInput" + r)*16)+138) + (name.length*7.5) > 320){
       setPosition("name"+r,((getNumber("xInput" + r)*16)+138)-(((getNumber("xInput" + r)*16)+138) + (name.length*7.5) - 320),(getNumber("yInput" + r)*-16)+203);
       } else {
